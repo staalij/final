@@ -25,3 +25,10 @@
     padding: 50px;
     text-align: center;
 }
+.submit {
+    text-align: center;
+}
+
+#submit {
+    font-family: cursive;
+}
