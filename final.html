@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Countdown Clock</title>
+    <h1 class="title">COUNTDOWN CLOCK</h1>
+</head>
+<body style="background-color: blue;">
+
+<!-- forms -->
+<form name="times">
+    <div style="text-align: center;">
+    <label for="manual" style="font-family: 'Trebuchet MS';">Countdown Time</label>
+    <input type="number" name="days" placeholder="Days"></input>
+    <input type="number" name="hours" placeholder="Hours"></input>
+    <input type="number" name="minutes" placeholder="Minutes"></input>
+    <input type="number" name="seconds" placeholder="Seconds"></input>
+    <br>
+</div>
+<br>
+<div style= "text-align: center;">
+        <button id="submit">Start Timer</button>    
+        </div>
+
+<br>
+<br>
+<div style="text-align: center;">
+
+    <input type="number" name="monthcountto" placeholder="Month" min="1" max="12"></input>
+    <input type="number" name="daycountto" placeholder="Day" min="1" max="31"></input>
+    <input type="number" name="yearcountto" placeholder="Year" min="2019"></input>
+    <input type="number" name="hourcountto" placeholder="Hour" min="0" max="23"></input>
+    <input type="number" name="minutecountto" placeholder="Minute" min="0" max="59"></input>
+    <input type="number" name="secondcountto" placeholder="Second" min="0" max="59"></input>
+
+</div>
+<br>
+<div style="text-align: center;">
+<input type="checkbox" name="toggledate" value="dateinput" id="box">
+<label for="datetime">Count to set date?</label>
+</div>
+
+</form>
+
+<!-- End of forms -->
+<br>
+
+
+<br>
+<div id="clock" class="clock">00:00:00:00</div>
+
+<div class="header">Current Time
+<div id = "local">00:00:00</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+
+</html>

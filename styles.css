@@ -1,0 +1,27 @@
+.title {
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Comic Sans MS';
+    font-size: 80px;
+    color: red;
+}
+
+.clock {
+    text-align: center;
+    font-size: 80px;
+    font-weight: bolder;
+    font-family: 'Comic Sans MS';
+    background-image: url(animated-rainbow.gif);
+    padding: 50px;
+    margin: 50px;
+    border-radius: 90px;
+    text-shadow: 5px 5px 10px #3D3B3A ;
+}
+
+.header {
+    font-size: 70px;
+    font-weight: bolder;
+    font-family: 'Comic Sans MS';
+    padding: 50px;
+    text-align: center;
+}
