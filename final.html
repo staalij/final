@@ -13,7 +13,9 @@
 <!-- forms -->
 <form name="times">
     <div style="text-align: center;">
-    <label for="manual" style="font-family: 'Trebuchet MS';">Countdown Time</label>
+    <input type="checkbox">
+    <label for="manual" class="inputs">Count down an amount of time</label>
+    <br>
     <input type="number" name="days" placeholder="Days"></input>
     <input type="number" name="hours" placeholder="Hours"></input>
     <input type="number" name="minutes" placeholder="Minutes"></input>
@@ -21,21 +23,23 @@
     <br>
 </div>
 <br>
+<br>
 <div style= "text-align: center;">   
         </div>
 
 <div style="text-align: center;">
 
+    <input type="checkbox" name="toggledate" value="dateinput" id="box">
+    <label for="converted" class="inputs">Count down to a specific time</label>
+    <br>
     <input type="number" name="hourcountto" placeholder="Hour" min="0" max="23"></input>
     <input type="number" name="minutecountto" placeholder="Minute" min="0" max="59"></input>
     <input type="number" name="secondcountto" placeholder="Second" min="0" max="59"></input>
 
 </div>
 <br>
-<div style="text-align: center;">
-<input type="checkbox" name="toggledate" value="dateinput" id="box">
-<label for="datetime">Count to set time?</label>
-</div>
+
+
 
 </form>
 <div class="submit"><button id="submit">Start Timer</button></div> 
