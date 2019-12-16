@@ -11,7 +11,7 @@
     font-size: 80px;
     font-weight: bolder;
     font-family: 'Comic Sans MS';
-    background-image: url(animated-rainbow.gif);
+    background: url(media/animated-rainbow.gif);
     padding: 50px;
     margin: 50px;
     border-radius: 90px;
