@@ -79,7 +79,7 @@ function ready() {
             if (sec <= -1) { sec = 59; mins-= 1; };
             if (mins <= -1) { mins = 59; hrs-= 1; };
             if (hrs <= -1) { hrs = 23; days -= 1; };
-            if (days <= -1) { window.location.href = 'party.html' ;days = 0;};
+            if (days <= -1) { window.location.href = 'party.html';days = 0;};
 // Converts values to strings and adds 0 on the beginning if a number below 10 is displayed
             sec = `${sec}`;
             mins = `${mins}`;
